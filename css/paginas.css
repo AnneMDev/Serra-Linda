@@ -1,0 +1,76 @@
+.sobre {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conteudo {
+    display: flex;
+    width: 400px;
+    background-color: rgba(251, 242, 242, 0.219);
+    align-content: center;
+    flex-direction: column;
+    height: 80%;
+
+}
+.conteudo p{
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+
+}
+
+.conteudo h1{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    text-align:center;
+}
+.conteudo h1:nth-of-type(1){
+    padding-top: 50px;
+}
+/*--------------- historia --------------*/
+.titulo {
+    font-size: 30px;
+    text-align: center;
+}
+.book .p{
+    font-size: 15px;
+}
+img.paisagem{
+    margin-left: 160px;
+    height: 120px;
+    width: 130px;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 10px;
+}
+.paisagem:hover {
+    -webkit-transform:scale(2.5);
+    transform:scale(2.5);
+  }
+a {
+    text-decoration: none;
+    color: rgb(31, 54, 7);
+}
+.book .pb{
+    font-size: 15px;
+    font-weight: bold;
+}
+.pb span{
+    display: block;
+    margin-top: 10px;
+    color: rgb(31, 54, 7);
+}
+entrevistadora {
+    display: block;
+    font-style: oblique;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.acervo{
+    width: 210px;
+    height: 200px;
+    border-radius: 10%;
+}
